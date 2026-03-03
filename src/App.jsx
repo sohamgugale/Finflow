@@ -33,7 +33,7 @@ function seedTransactions() {
   const txns = [];
   let id = 1;
 
-  for (let m = 5; m >= 0; m--) {
+  for (let m = 4; m >= -1; m--) {
     const monthDate = new Date(now.getFullYear(), now.getMonth() - m, 1);
     const daysInMonth = new Date(monthDate.getFullYear(), monthDate.getMonth() + 1, 0).getDate();
 
