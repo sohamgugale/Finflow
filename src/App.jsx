@@ -5,7 +5,7 @@ import {
 } from "recharts";
 
 // ─── API CLIENT ──────────────────────────────────────────────────────────────
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const BASE_URL = "https://finflow-backend-09kd.onrender.com";
 
 const api = {
   async register(email, username, password) {
